@@ -98,8 +98,9 @@ ul{
 
 .padd-15
 {
-    padding-left: 15px;
-    padding-right: 25px;
+    padding-left: 45px;
+    padding-right: 50px;
+    margin: auto;
 
 }
 .container
@@ -178,10 +179,6 @@ ul{
 {
      box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-
-
-
-
 
 .aside
 {
@@ -598,6 +595,7 @@ h3.my-profession
 {
     flex: 0 0 100%;
     max-width: 100%;
+    /* width: 400px; */
     
 }
 .about  .about-content  .timeline
@@ -683,16 +681,24 @@ h3.my-profession
 }
 
 /* service */
+.heading{
+    display: flex;
+    justify-content: center;
 
+}
+.heading p{
+    margin-left: 5px;
+}
 .service  .container
 {
     padding-bottom: 40px;
+    /* padding-left: 20%; */
 }
 .service  .service-item
 {
     margin-bottom: 30px;
-    flex: 0 0 33%;
-    max-width: 33.33%;
+    flex: 0 50% 0;
+    max-width: 75%;
 
 }
 
@@ -704,7 +710,6 @@ h3.my-profession
     padding: 30px 15px;
     text-align: center;
     transition: all 0.3s ease;
-
 
 
 }
