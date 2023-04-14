@@ -15,11 +15,9 @@ body.dark
         --bg-black-100:#222222;
         --bg-black-50:#393939;
         --text-black-900:#ffffff;
-        --text-black-700:#e9e9e9;
-    
+        --text-black-700:#e9e9e9;  
     
 }
-
 body{
 
     margin:0;
@@ -34,7 +32,6 @@ body{
     outline:none;
     text-decoration:none;
     box-sizing:border-box;
-
 }
 
 ::before,::after
@@ -678,6 +675,14 @@ h3.my-profession
     color:  var(--text-black-700);
 
 
+}
+
+.patents-title{
+    color: var(--text-black-900);
+}
+
+.patents-content{
+    color: var(--text-black-700);
 }
 
 /* service */
