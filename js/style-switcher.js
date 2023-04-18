@@ -27,7 +27,7 @@ function  setActiveStyle(color)
 
     })
 }
-
+ 
 // Theme light and dark mode 
 const dayNight = document.querySelector(" .day-night");
 dayNight.addEventListener("click", () =>  {
